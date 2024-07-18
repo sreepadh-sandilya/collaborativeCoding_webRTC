@@ -1,0 +1,27 @@
+{
+  "name": "collaborative-coding",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "y-monaco": "^0.1.5",
+    "y-webrtc": "^10.2.6",
+    "yjs": "^13.6.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
